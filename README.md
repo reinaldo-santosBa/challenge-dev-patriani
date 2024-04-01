@@ -1,5 +1,5 @@
 <h1 align="center">
-   Desafio NextJS
+   Desafio
   
 <br>
 <h3 align="center">
@@ -11,6 +11,8 @@ Frontend Challenge
 
 Bem-vindo ao teste para a correção e implementação de alterações em um sistema hipotético. Neste teste, você será responsável por corrigir problemas de padronização, bugs e implementar melhorias propostas pela gerência e pela equipe de design. O sistema em questão é uma plataforma existente que requer modificações para incluir uma página de adição e edição de empreendimentos, bem como ajustes de design, como cores, fontes e dimensões de componentes.
 
+Foi solicitado também pelo líder técnico a criação de um backend simples em Nodejs utilizando Express para substituir o json-server que é utilizado atualmente. 
+
 **Instruções:**
 
 1. **Análise do Sistema Atual:**
@@ -21,6 +23,7 @@ Bem-vindo ao teste para a correção e implementação de alterações em um sis
    - Corrija os problemas de padronização no código, seguindo as melhores práticas de desenvolvimento.
    - Implemente a página de adição e edição de empreendimentos de acordo com as especificações fornecidas pela equipe de design.
    - Faça as alterações de design conforme indicado no Figma.
+   - Implemente um backend simples em Nodejs utilizando Express para servir os dados e as funcionalidade. Não é necessário um banco de dados para o armazenamento de dados, apenas a implementação da logica e estrutura de uma API rest é necessário.
 
 3. **Proposta de Melhorias no Layout:**
    - Além das alterações solicitadas, proponha melhorias adicionais no layout, como feedbacks de sucesso e erro, otimizações de usabilidade, entre outros.
@@ -56,6 +59,13 @@ Para consulta do CEP poderá utilizar API pública [ViaCEP](https://viacep.com.b
 - [ ] Deletar Empreendimento
 - [ ] Styled-components para construção do layout 
 - [ ] Responsivo
+- [ ] Alterar integração para a API REST
+- [ ] Subir no github
+
+## Requisitos da aplicação Nodejs
+- [ ] API REST funcional
+- [ ] Utilizar Express
+- [ ] Utilizar Typescript
 - [ ] Subir no github
 
 ## Ideias de melhorias
