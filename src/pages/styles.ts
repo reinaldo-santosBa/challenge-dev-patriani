@@ -8,49 +8,48 @@ export const ContainerHome = styled.div`
 `
 
 export const ContentHome = styled.div`
-    width: 80%;
+    width: 90%;
     height: 8rem;
-    background: #FFFFFF;
-    border-radius: 8px;
+    background: #fff;
+    border-radius: .5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 2rem 3.4rem;
+    margin-bottom: 2rem;
+    @media (max-width: 768px) {
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
 `
 
 export const BoxNameEnterprise = styled.div`
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     margin-bottom: 1rem;
-
-    span {
-        font-family: Inter, sans-serif;
-        font-weight: 700;
-        font-size: 1.3rem;
-        color: #302E45;
-        margin-right: 1.2rem;
+    width: 100%;
+    @media (max-width: 600px) {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1rem;
     }
-
-    img {
-        cursor: pointer;
-        transition: filter 0.2s;
-
-        &:hover {
-            filter: brightness(0.8);
-        }
-
-        & + img {
-            margin-left: 0.75rem;
-        }
+`
+export const IconArea = styled.div`
+    display: flex;
+    gap: .7rem;
+    span{
+        cursor:pointer;
     }
-
-    `
+`;
 export const ContentLupa = styled.div`
     width: 80%;
     height: 2.5rem;
     border-bottom: 2px solid #BBB8D9;
-
+    margin: 0 auto;
     input {
         border: none;
         width: 90%;
@@ -103,6 +102,7 @@ export const ContentStatus = styled.div`
             margin-left: 15px;
         }
     }
+ 
 `
 
 export const ContainertLupa = styled.div`
@@ -110,7 +110,11 @@ export const ContainertLupa = styled.div`
     height: 2.5rem;
     display: flex;
     justify-content: center;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+    align-items: center;
+`
 
+export const TextLoading = styled.span`
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
 `

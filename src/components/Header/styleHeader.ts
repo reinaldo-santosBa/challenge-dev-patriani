@@ -2,15 +2,17 @@ import styled from 'styled-components';
 
 
 export const HeaderContainerAll = styled.header`
-    width: 1920px;
-    max-width: 100%;
-    height: 80px;
+    width: 100%;
+    height: 5rem;
     background: #FFFFFF;
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
-
+    margin-bottom: 1.8rem;
+    @media (max-width: 7680px) {
+        padding: .5rem 0;
+        height: 100%;
+    }
 `
 
 export const BoxAdd = styled.div<{ return: boolean }>`
@@ -20,8 +22,6 @@ export const BoxAdd = styled.div<{ return: boolean }>`
         display: flex;
         align-items: center;
         justify-content: space-between;
-
-
         h5 {
             font-family: Montserrat, sans-serif;
             font-style: normal;
@@ -52,6 +52,12 @@ export const BoxAdd = styled.div<{ return: boolean }>`
             &:hover {
                 filter: brightness(0.9);
             }
+        }
+        @media (max-width: 7680px) {
+            padding: 1rem 0;
+            height: auto;
+            flex-direction: column;
+            justify-content: space-evenly;
         }
 `;
 
